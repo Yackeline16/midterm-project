@@ -1,0 +1,115 @@
+@font-face {
+  font-family: myRoboto;
+  src: url(./styles\ complements/Roboto/Roboto-Regular.ttf);
+}
+html {
+  background-color:white;
+  font-family: "myRoboto";
+  color: #6B708D;
+
+}
+h1{
+  font-size:60px;
+  font-weight: bold;
+  color:#292E47;
+}
+h2 {
+  font-size:50px;
+  font-weight: bold;
+  color:#292E47;
+}
+h3 {
+  font-size:40px;
+  font-weight: bold;
+  color:#292E47;
+  }
+h4 {
+  font-size: 24px;
+  font-weight: bold;
+  color:#292E47;
+}  
+
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+
+nav div{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+}
+.navMenu{
+
+  text-decoration: none;
+  display: inline-block;
+  color: #292E47;
+  font: size 17px;
+  font-weight:500px;
+  line-height: 22px;
+  padding: 0px 5px 0px 5px;
+ 
+}
+.navMenu:hover { 
+  color:#072ac8
+ }
+ 
+.std-button {
+color:white;
+box-sizing: border-box;
+background-color: #072ac8;
+text-decoration: none;
+display: inline-block;
+padding: 15px 35px 15px 35px
+}
+
+.std-button:hover {
+  background-color:#292E47;
+
+}
+.hero-btns1 {
+  color: #292E47;
+  text-decoration: none;
+  box-sizing: border-box;
+  display: inline-block;
+}
+#hero {
+  position: absolute;
+  min-height: 400px;
+}
+#hero-intro {
+  height: 800px;
+  width: 50%;
+  box-sizing: border-box;
+ display: flex;
+ flex-direction: column;
+}
+#hero-img {
+  height: 600px;;
+  width:50%;
+  box-sizing: border-box;
+  display: flexbox;
+  flex-direction: column;
+}
+.heroimg {
+  height: 400px;
+  width:auto
+  image-rendering: auto;
+}
+ .card-1 {
+   height: 150px;
+   width:auto;
+ }
+ 
+ .card-2 {
+  height: 150px;
+  width:auto;
+ }
