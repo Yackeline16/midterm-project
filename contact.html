@@ -5,21 +5,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="styles" href="./styles.css">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="contact.js"></script>
     <title>contact</title>
 </head>
 
 <body>
     <header>
         <nav>
+            <img src="./imagenes/circle.svg" alt="circle logo" class="logo">
+
+            <div>
+                <a href="#" class="navMenu">Home</a>
+                <a href="#" class="navMenu">Project</a>
+                <a href="#" class="navMenu">Services</a>
+
+            </div>
+            <span>
+                <a href="#" class="std-button   ">Contact us</a>
+            </span>
         </nav>
 
+
     </header>
-        <section>
-            <!-- form -->
-        </section>
-        <footer>
-            <!--logo, address and web map (web menu)     -->
+    <section>
+        <form id="contact-form" action="#" method="post">
+            <div class="fname">
+                <label>Full Name*</label><br>
+                <input type="text" placeholder="Enter your full name" id="fullName">
+            </div>
+            <div class="emaildata">
+                <label>Email</label>
+                <input type="email" placeholder="Enter your email" id="email2">
+            </div>
+            <div class="phoneNumber">
+                <label>Phone</label>
+                <input type="tel" placeholder="Enter your phone number"  id="phone">
+            </div>
+            <div class="messageBox">
+                <label>Message</label>
+                <!-- rows="20" cols="100" -->
+                <textarea name="message" placeholder="Write your message here..."  id="message"></textarea>
+            </div>
+            <div id="contactButton">
+            <input type="submit" value="Subscribe" id="subscribe-button">
+        </div>
+        </form>
+    </section>
+    <footer>
+        <div class="company-data">
+            <img src="./imagenes/circle.svg" alt="circle logo" class="logo">
+            <p>2972 Westheimer Rd. Santa Ana, <br>
+                Illinions85486</p>
+        </div>
+        <div class="menu-footer">
+            <a href="#" class="navMenuFooter">Team</a>
+            <a href="#" class="navMenuFooter">Services</a>
+            <a href="#" class="navMenuFooter">About Us</a>
+            <a href="#" class="navMenuFooter">Press</a>
+            <a href="#" class="navMenuFooter">Projects</a>
+            <a href="#" class="navMenuFooter">Privacy Policy</a>
+        </div>
     </footer>
 </body>
 

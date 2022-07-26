@@ -5,38 +5,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="styles" href="./styles.css">
+    <link rel="stylesheet" href="./styles.css">
+    <script defer src="./project.js"></script>
     <title>project</title>
 </head>
 
 <body>
     <header>
         <nav>
+            <img src="./imagenes/circle.svg" alt="circle logo" class="logo">
+
+            <div>
+                <a href="#" class="navMenu">Home</a>
+                <a href="#" class="navMenu">Project</a>
+                <a href="#" class="navMenu">Services</a>
+
+            </div>
+            <span>
+                <a href="#" class="std-button">Contact us</a>
+            </span>
         </nav>
 
     </header>
-        <section class= "article">
-            <div>
-                <!--- h1 p image and text -->
+    <section class="article">
+
+        <div>
+            <h2 id="postTitle"></h2>
+        </div>
+        <div class="article-container">
+
+        </div>
+            <img id="postPhoto">
+        </div>
+            <p id="postBody"></p>
+        </div>
+    </section>
+
+    </section>
+    <section id="recentProjects">
+        <div class="recentProject-container">
+            <!-- <script src="./index.js" type="module"></script> -->
+            <h2>Other Projects</h2>
+            <div class="post-box-grid" id="posts"></div>
+
+        </div>
+    </section>
+    <section>
+        <div id="newsletters">
+            <h2>Do you have any questions?</h2>
+            <p>Let us help you!</p>
+            <div class="subscribe_form">
+                <form action="#" method="post" class="form" id="formSubscribe">
+                    <div class="formContainer">
+                        <input type="image" src="./imagenes/newsletter/icon/mail.svg" class="img-envelope">
+                        <input type="email" placeholder=" Enter your email" class="input-field" id="email">
+                    </div>
+                    <input type="submit" value="Subscribe" id="subscribe-button" class="contactButton">
+                </form>
             </div>
-        </section>
-       
-        </section>
-        <section id="recentProjects">
-            <div>
-                <!-- three post boxes, link to project or fetch from database??-->
-        </section>
-        
-        <section id="services">
-            <!-- similar to project post, maybe reuse some of it -->
-        </section>
-        <section id="newsletters">
-            <div>
-                <!--h1 p and email input, subscribe button  -->
-            </div>
-        </section>
-        <footer>
-            <!--logo, address and web map (web menu)     -->
+        </div>
+    </section>
+    <footer>
+        <div class="company-data">
+            <img src="./imagenes/circle.svg" alt="circle logo" class="logo">
+            <p>2972 Westheimer Rd. Santa Ana, <br>
+                Illinions85486</p>
+        </div>
+        <div class="menu-footer">
+            <a href="#" class="navMenuFooter">Team</a>
+            <a href="#" class="navMenuFooter">Services</a>
+            <a href="#" class="navMenuFooter">About Us</a>
+            <a href="#" class="navMenuFooter">Press</a>
+            <a href="#" class="navMenuFooter">Projects</a>
+            <a href="#" class="navMenuFooter">Privacy Policy</a>
+        </div>
     </footer>
 </body>
 
