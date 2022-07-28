@@ -282,7 +282,7 @@ float:right;
   border-radius: 50%;
 }
 .imag_pen {
-  background-image: url("/imagenes/services-section/icons/1.svg");
+  background-image: url("./imagenes/services-section/icons/1.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -294,7 +294,7 @@ float:right;
   border-radius: 50%;
 }
 .imag_arrow {
-  background-image: url("/imagenes/services-section/icons/2.svg");
+  background-image: url("./imagenes/services-section/icons/2.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -306,7 +306,7 @@ float:right;
   border-radius: 50%;
 }
 .imag_tech {
-  background-image: url("/imagenes/services-section/icons/3.svg");
+  background-image: url("./imagenes/services-section/icons/3.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
