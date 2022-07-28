@@ -38,15 +38,15 @@ function loadMainPost(id){
     .then((post) => {
         document.getElementById('postTitle').innerHTML = post.title;
         document.getElementById('postBody').innerHTML = post.body;
-        // document.getElementById('postImage').setAttribute('src', `./imagenes/projects-section/${i + 1}.jpg`);
+        document.getElementById('postImage').setAttribute('src', `./imagenes/projects-section/${i + 1}.jpg`);
     });
 }
-function loadMainPhoto(id){
-    fetch(`${API_URL}/photos/${id}`)
-    .then((response) => response.json())
-    .then ((post) => {
-        document.getElementById('postPhoto').innerHTML = post.url;
-    }); 
+// function loadMainPhoto(id){
+//     fetch(`${API_URL}/photos/${id}`)
+//     .then((response) => response.json())
+//     .then ((post) => {
+//         document.getElementById('postPhoto').innerHTML = post.url;
+//     }); 
 
   
-}
+// }

@@ -4,6 +4,7 @@ html {
   color: #6b708d;
   width: min(100% - 6rem, 1000px);
   margin-inline: auto;
+  box-sizing: border-box;
   
 }
 h1 {
@@ -128,14 +129,14 @@ float:right;
 .recentProject-container {
   display: flex;
   flex-wrap: wrap;
-  width: 110%;
+  width: 100%;
   margin-inline: auto;
 }
 
 .post-box-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-  column-gap: 5rem;
+  column-gap: 3rem;
 }
 
 .post img {
@@ -267,7 +268,7 @@ float:right;
   height: 350px;
   padding-left: 5%;
   padding-right: 5%;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   background-color: white;
   display: flex;
   flex-direction: column;
